@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #0074D9;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Agrega más estilos según tus preferencias */

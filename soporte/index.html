@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Soporte de Banco Digital</title>
+</head>
+<body>
+    <header>
+        <h1>Soporte de Banco Digital</h1>
+    </header>
+    <nav>
+        <!-- Agrega enlaces a las diferentes secciones del soporte -->
+        <ul>
+            <li><a href="#preguntas-frecuentes">Preguntas Frecuentes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="preguntas-frecuentes">
+        <!-- Aquí puedes agregar tus preguntas frecuentes -->
+        <h2>Preguntas Frecuentes</h2>
+        <p>¿Cómo puedo recuperar mi contraseña?</p>
+        <!-- Más preguntas aquí -->
+    </section>
+    <section id="contacto">
+        <!-- Formulario de contacto -->
+        <h2>Contacto</h2>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 Banco Digital. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
